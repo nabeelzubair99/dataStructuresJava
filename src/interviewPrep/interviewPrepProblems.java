@@ -37,7 +37,10 @@ public class interviewPrepProblems {
 		listGen.add(7);
 		listGen.add(3);
 
-		returnTrueOrFalse(listGen, 25);
+		// returnTrueOrFalse(listGen, 25);
+		leetCodeProblem x = new leetCodeProblem();
+		int[] passIn = { 1, 4, 3, 4, 5 };
+		x.duplicatesInArray(passIn);
 	}
 
 }
